@@ -1,0 +1,6 @@
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: rgb(165, 153, 42);
+      font-size: 0.25em;
+    }
+  }

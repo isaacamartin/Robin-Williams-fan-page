@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Responsive Project Main Page</title>
+    <link rel="stylesheet" type="text/css" href="/src/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/src/style.css" />
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <!-- navigational bar -->
+          <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- navigational bar -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <section>
+            <div style="color: white" class="p-4 bkgnd_clr_contact">
+              <h3 style="color: white">Sign Up for the Fan Club</h3>
+              <hr />
+              <form class="">
+                <label>First Name:<input type="text" /></label><br />
+                <label>Last Name:<input type="text" /></label><br />
+                <label>Email:<input type="text" /></label><br />
+                <label>Street Address:<input type="text" /></label><br />
+                <label>City:<input type="text" /></label><br />
+                <label>State:<input type="text" /></label><br />
+                <label>Zip:<input type="text" /></label>
+                <div class="mx-auto">
+                  <input type="submit" value="Submit" />
+                </div>
+              </form>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

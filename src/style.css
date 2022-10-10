@@ -1,0 +1,143 @@
+body {
+  background-color: rgb(34, 39, 44);
+}
+
+.navbar {
+  font-size: 1.4em;
+  background-color: rgb(2, 104, 155);
+}
+
+p {
+  font-size: 1.15em;
+}
+
+.bkgnd_clr_index {
+  background-color: rgb(171, 235, 255);
+}
+.bkgnd_clr_portfolio {
+  background-color: rgb(0, 27, 40);
+}
+.bkgnd_clr_contact {
+  background-color: rgb(0, 27, 40);
+}
+
+h1 {
+  font-size: 1.9em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+.films > img {
+  width: auto;
+  height: 400px;
+  margin: 10px;
+  box-shadow: 4px 4px 8px #343434;
+}
+
+.img-fluid {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 4px 4px 8px #000000b0;
+}
+
+.hr_cntrl {
+  height: 40px;
+}
+
+label {
+  width: 400px;
+  text-align: right;
+  padding-bottom: 15px;
+}
+input {
+    margin-left: 10px;
+}
+.side_gutter {
+    width: 50px;
+}
+
+
+      /* phone */
+      @media (min-width: 359px) {
+        body {
+          font-size: 0.65em;}
+          .img-fluid {
+            width: auto;
+            height: 275px;
+            margin: 10px;
+            box-shadow: 4px 4px 8px #343434;
+          }
+          .films > img {
+            width: auto;
+            height: 275px;
+            margin: 10px;
+            box-shadow: 4px 4px 8px #343434;
+          }
+        label {
+          width: 200px;
+          text-align: left;
+          padding-bottom: 15px;
+        }
+        input {
+            margin-left: 0px;
+        }/* 
+        form {
+          height: 700px;
+        } */
+      }
+
+      /* Tablet */
+      @media (min-width: 768px) {
+        body {
+          font-size: 0.75em;
+        }
+        .img-fluid {
+            width: auto;
+            height: 375px;
+            margin: 10px;
+            box-shadow: 4px 4px 8px #343434;
+          }
+          .films > img {
+            width: auto;
+            height: 375px;
+            margin: 10px;
+            box-shadow: 4px 4px 8px #343434;
+          }
+          label {
+            width: 400px;
+            text-align: right;
+            padding-bottom: 15px;
+          }
+          input {
+              margin-left: 10px;
+          }
+          form {
+            height: auto;
+          }
+      }
+
+      /* Desktop */
+      @media (min-width: 1600px) {
+        body {
+          font-size: 1.10em;
+        }
+        .img-fluid {
+            width: auto;
+            height: 425px;
+            margin: 10px;
+            box-shadow: 4px 4px 8px #343434;
+          }
+        .films > img {
+          width: auto;
+          height: 440px;
+          margin: 10px;
+          box-shadow: 4px 4px 8px #343434;
+        }
+        input {
+            margin-left: 10px;
+        }
+        form {
+          height: auto;
+        }
+      }
